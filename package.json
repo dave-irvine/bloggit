@@ -1,0 +1,22 @@
+{
+	"name": "Bloggit",
+	"description": "Stupidly simple static blogging with git and node.js",
+	"preferGlobal": true,
+	"version": "0.0.1",
+	"author": "Dave Irvine <dave@daveirvine.me>",
+	"bin": {
+		"bloggit": "./bin/bloggit"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dave-irvine/bloggit.git"
+	},
+	"dependencies": {
+		"watch": "*",
+		"node-markdown": "*"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.8"
+	}
+}
